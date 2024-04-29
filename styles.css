@@ -1,0 +1,275 @@
+/* Set Global configuartions */
+ * {
+    /* display: flex; */
+    font-family: "Roboto", sans-serif;
+    margin: 0;
+}
+
+/* .button {
+    border: 2px solid white !important;
+} */
+
+/* Set the Header configurations  */
+
+.header {
+    background-color: #1F2937;
+    color: #fff;
+    font-size: 12px;
+    padding: 5px 50px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 20px;
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+.header-links {
+    display: flex;
+    justify-content: flex-end;
+    margin: 0 20px;
+    /* padding: 0 10px; */
+}
+
+.home, .about, .contact {
+    display: flex;
+    /* padding: 0 5px; */
+    margin: 0 5px;
+}
+
+/* Set the Intro section configuration */
+
+.intro {
+    background-color: #1F2937;
+    color: #fff;
+    padding: 5px 0;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* align-items: center; */
+}
+
+.section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+}
+
+.text-container {
+    margin-right: 20px;
+    /* padding: 20px 50px; */
+}
+
+.intro .title {
+    font-weight: bold;
+    font-size: 32px;
+
+    display: flex;
+    justify-content: left;
+    text-wrap: wrap;
+}
+
+.intro .subtitle {
+    font-size: 18px;
+    margin-bottom: 10px;
+    width: 250px;
+    
+    display: flex;
+    justify-content: left;
+    text-wrap: wrap;
+}
+
+.intro .button-container {
+    /* width: 100%; */
+    display: flex;
+    justify-content: center;
+}
+
+.intro .button {
+    padding: 10px 20px;
+    background-color: #3882F6;
+    color: #fff;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.animage {
+    width: 200px;
+    height: auto;
+}
+
+/* Set the Information section configuration */
+.information {
+    /* height: 500px; */
+    margin: 20px;
+    padding: 0 40px;
+}
+
+.information .title {
+    font-weight: bold;
+    font-size: x-large;
+    margin-top: 50px;
+    margin-bottom: 0px;
+
+    display: flex;
+    flex: 1;
+    justify-content: center;
+}
+
+.information .container {
+    /* height: 200px; */
+    padding: 20px 0px;
+    margin: 0px 5px;
+    /* margin-bottom: 50px; */
+    /* border: 1px solid #000; */
+    
+    display: flex;
+    justify-content: space-around;
+    /* justify-self: space; */
+    align-items:flex-start;
+}
+    
+.box {
+        /* width: 60px; */
+        height: auto;
+        margin: 10px 0px;
+        padding: 30px;
+        text-align: center;
+        background-color: #3882F6;
+        border: 2px solid #3882F6;
+        border-radius: 100px;
+
+        display: flex;
+        justify-content: center;
+        /* align-items:right; */
+        /* flex: 1; */
+    }
+
+.container-one,
+.container-two,
+.container-three,
+.container-four {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 0 5px;
+    /* justify-content:center; */
+    /* justify-self: center; */
+}
+
+.box-subtitle {
+    font-size: small;
+    /* padding: 0 20px; */
+    /* width: 110px; */
+
+    display: flex;
+    /* flex: 1; */
+    justify-content: center;
+    text-wrap: pretty;
+}
+
+/* Set the quote configuration */
+.quote {
+    background-color: #E5E7EB;
+    color: #1F2937;
+    font-size: 36px;
+    padding: 0 140px;
+    display: flex;
+    flex-direction: column;
+}
+
+.quote-line {
+    font-weight: 50;
+    font-style: italic;
+    font-size: 36px;
+    margin-top: 40px;
+    margin-bottom: 10px;
+}
+
+.quote-author {
+    font-weight: bold;
+    font-size: 20px;
+    margin-bottom: 40px;
+
+    display: flex;
+    justify-content: flex-end;
+}
+
+/* Set the Call to Action configurations  */
+.calltoaction {
+    background-color: #3882F6;
+    margin: 50px 40px;
+    padding: 10px 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.calltoaction .container {
+    padding: 20px 20px 20px 80px;
+    color: #fff;
+    /* margin: 0 0 20px 20px; */
+
+    display: flex;
+    justify-content: left;
+    flex-direction: column;
+    /* flex-wrap: wrap; */
+}
+
+.container .calltoaction-title {
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.container .calltoaction-subtitle {
+    width: 350px;
+    font-size: 14px
+}
+
+.calltoaction .button {
+    /* height: fit-content; */
+    width: 120px;
+    padding: 10px 20px;
+    margin-right: 60px;
+    background-color: #3882F6;
+    color: #fff;
+    border: 1px solid white;
+    border-radius: 5px;
+    cursor: pointer;
+
+    display: flex;
+    justify-content: center;
+    align-self: center;
+}
+
+.calltoaction .button:hover {
+    background-color: #fff; /* Change border color on hover */
+    color: #3882F6;
+}
+
+/* Set the footer configuration */
+.footer {
+    color: #fff;
+    background-color: #1F2937;
+    height: 100%;
+    font-size: 12px;
+    padding: 20px 0px 20px 0px;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
